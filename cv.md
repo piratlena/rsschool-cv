@@ -32,4 +32,5 @@ function capitalizeWord(word) {
 * UDEMY: Jonas SchmedtmannThe Complete JavaScript Course 2022: From Zero to Expert.(in progress)
 ***
 ### Languages:
-* English -  [Upper-intermediate](https://www.efset.org/cert/xNkqsk)
+* English -  [Upper-intermediate](https://www.efset.org/cert/xNkqsk) according to the online test on [![enter image description here](https://a.storyblok.com/f/71234/103x24/da9ab91cbd/efset-logo_black.svg)](https://www.efset.org/ru/) 
+* French - Intermediate
