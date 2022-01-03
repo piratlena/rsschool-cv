@@ -7,8 +7,135 @@
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <img src="/photo_for_cv-1.jpg" alt="photo" class="photo">
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>  
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+               </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="main-container">
+                
+                <section class="photo">
+                    <h1><img src="assets/img/photo_for_cv-1.jpg" alt="profile_photo" class="photo_cv"></h1>
+                </section>
     
+                <section class="profile" id="profile">
+                    <h2 class="section-title">Elena Brazhnikova</h2>
+                    <div class="profile_divider"></div>
+                    <h2 class="profile_position">Junior Front-end developer</h2>
+                    <div class="profile_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis dolorum voluptates asperiores? Quia tempore, unde, quos laboriosam consectetur consequuntur mollitia, quo velit vero corporis nihil! Temporibus quidem aspernatur laboriosam soluta.</div>
+                </section>
+
+                <section class="contacts" id="contacts">
+                    <h2 class="contacts_title">Contacts</h2>
+                   <ul class="contacts_list">
+                       <li class="item_contacts">Novosibirsk, Russia</li>
+                       <li class="item_contacts">Email:<a href="mailto:brazhnikowa@ngs.ru" title="Email" class="links">brazhnikowa@ngs.ru</a></li>
+                       <li class="item_contacts">Github:<a href="https://github.com/piratlena" title="Github" class=links>piratlena</a></li>
+                   </ul>
+                 </section>
+             
+                 <section class="summary" id="summary">
+                     <h2 class="summary_title">Summary</h2>
+                     <p class="summary_text">I'm at the beginning of my journey to the Frontend Development. 
+                        I'm  curious person and I love the idea of life-long learning that's why I've chosen IT field and decided to take a shot.
+                        The second reason that is so rewarding to see something that you have built yourself  even though it is the most easiest task on codewards. </p>
+                     
+                 </section>
+             
+                 <section class="skills" id="skills">
+                     <h2 class="skills_title">Skills</h2>
+
+                     <div class="skills_descr">
+            
+                        <div class="skills_item">
+                            <div class="skills_round">
+                                <img src="assets/logo_skills/HTML_logo.png" width="80" alt="HTML" class="skills_icon">
+                               </div>
+                               <div class="skills_text">Beginner</div>
+                        </div>
+                        <div class="skills_item">
+                            <div class="skills_round">
+                                <img src="assets/logo_skills/logo-2582747_640.png" alt="CSS" class="skills_icon">
+                               </div>
+                               <div class="skills_text">Beginner</div>
+                        </div>
+                        <div class="skills_item">
+                            <div class="skills_round">
+                                <img src="assets/logo_skills/JS_logo.png" width="80" alt="JS" class="skills_icon">
+                               </div>
+                               <div class="skills_text">Beginner</div>
+                        </div>
+                    </div>
+
+                 </section>
+             
+                 <section class="code" id="code">
+                      <h2 class="code_title">Code</h2>
+                      <p class="code_text">
+                          <code>function testWhile(a) { <br>
+                            var x=0; <br>
+                            for (var i = 1; i = a; i++) <br>
+                                if (i % 2 == 0) { <br>
+                                x += i;} <br>
+                            
+                            return x; <br>
+                            
+                        }</code>
+                      </p>
+                 </section>
+             
+                 <section class="projects" id="projects">
+                     <h2 class="projects_title">Projects</h2>
+                     <p class="projects_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur modi id perspiciatis alias inventore dolorem, iure molestiae aliquid distinctio facilis veniam ipsum porro molestias perferendis. Impedit eum sint non accusantium?</p>
+                 </section>
+             
+                 <section class="courses" id="courses">
+                     <h2 class="courses_title">Courses</h2>
+                     <p class="courses_text">RS school - course «JavaScript/Front-end».</p>
+                 </section>
+             
+                 <section class="languages" id="languages">
+                     <h2 class="languages_title">Languages</h2>
+                     <p class="english_text">
+                         English - Upper-Intermediate <br>
+                         French - Intemediate
+                     </p>
+                 </section>
+         
+                 <section class="education">
+                     <h2 class="education_title">Education</h2>
+                     <p class="education_text">Altai state instite of culture. <br>
+                        The Faculty of Directing of the Holidays </p>
+                 </section>
+                 </div>
+          
+
+            </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <p class="footer_text"><a href="https://github.com/piratlena" class="links">&copy; 2022 piratlena</a></p>
+            <p class="logo_rs"><a href="https://rs.school/js/"><img src="assets/rs_school_js.svg" width="120" 
+                height="120" alt="RSschool"></a></p>
+        </div>
+    </footer>
 </body>
 </html>
