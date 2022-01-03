@@ -1,0 +1,278 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    display: block;
+  }
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto-Black.ttf");
+}
+
+.header {
+    min-height: 40px;
+    background-color: rgb(1, 54, 92);
+}
+
+.header a {
+    color: #FFFFFF;
+    text-decoration: none; 
+    text-transform: uppercase; 
+    transition: color 0.5s;
+}
+
+.header a:hover {
+    color: #1bcf48;
+}
+
+nav {
+    display: block;
+  }
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.7rem;
+}
+  
+.nav-link {
+    text-decoration: none;
+    color:white;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    transition: color 0.5s; 
+  } 
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+section {
+    width: 50%;
+  }
+  
+@media (max-width: 768px) {
+    section {
+      width: 100%;}
+}
+
+.photo {
+    height: 300px;
+    background: url(assets/img/first_screen-1.jpg)center center/cover no-repeat;
+    
+}
+
+.photo .photo_cv {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 100%;
+    border: white solid;
+}
+
+.profile {
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+.profile .section-title {
+    color: #04235e;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+
+.profile .profile_divider {
+    width: 217px;
+    height: 4px;
+    background: #F9BF3B; 
+    margin: 0 auto;
+    margin-top: 30px;  
+}
+
+.profile .profile_position {
+    margin-top: 40px;
+    color: #04235e;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.profile .profile_text {
+    margin-top: 30px;
+    margin-left: 720px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;  
+}
+
+.contacts, .skills, .projects, .languages {
+    height: 300px;
+    background-color:rgb(1, 54, 92)
+}
+.contacts .contacts_title, .skills_title, .projects_title, .languages_title {
+    color:#04235e;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.contacts .contacts_text, .projects .projects_text, .languages_text {
+    margin-top: 20px;
+    padding: 0 20px;
+    color:white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;  
+}
+
+.summary, .code, .courses, .education {
+   height: 300px;
+}
+
+.summary .summary_title, .code .code_title, .courses_title, .education_title {
+    color:white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: rgb(1, 54, 92);
+    text-transform: uppercase;
+  } 
+  
+.code .code_text {
+    margin-top: 20px;
+    padding: 0 20px;
+    color: #04235e;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;  
+}  
+
+.contacts_list {
+  list-style: none;
+  margin-top: 25px;
+  margin-left: 40px;
+  text-align:left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #EFEFEF;
+}
+
+.skills .skills_descr {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.skills .skills_descr .skills_item {
+    width: 80px;
+}
+.skills .skills_descr .skills_item .skills_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 100%;
+}  
+
+.skills .skills_descr .skills_item .skills_text {
+  margin-top: 25px;
+  text-align: center;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 20px;
+color: #EFEFEF;
+}
+
+.english_text{
+  list-style: none;
+  margin-top: 25px;
+  margin-left: 40px;
+  text-align:left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #EFEFEF; 
+}
+
+.education_text, .summary_text, .courses_text {
+  list-style: none;
+  margin-top: 25px;
+  margin-left: 40px;
+  text-align:left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #04235e;
+}
+.footer {
+  height:100px;
+  background-color: rgb(1, 54, 92);
+}
+
+.links {
+  color:#FFFFFF;
+}
+
+.logo_rs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
